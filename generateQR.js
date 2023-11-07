@@ -2,7 +2,7 @@ const qrcode = require('qrcode');
 const fs = require('fs');
 const Jimp = require('jimp');
 
-const qrCodeText = 'https://www.google.com/search?q=h2o+car+wash&oq=h2o+car&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyDQgBEC4YrwEYxwEYgAQyBggCEEUYOTIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABDIHCAoQABiABDIHCAsQABiABDIHCAwQABiABDIHCA0QABiABDIHCA4QLhiABNIBCDQ5MDRqMGo0qAIAsAIA&client=ms-android-xiaomi-rev1&sourceid=chrome-mobile&ie=UTF-8#lkt=LocalPoiReviews&trex=m_t:lcl_akp,rc_ludocids:10473744877784171447,rc_q:h2o%2520car%2520wash,ru_gwp:0%252C7,ru_q:h2o%2520car%2520wash,trex_id:JtoDaf&lpg=cid:CgIgAQ%3D%3D'; // Reemplaza con tu URL
+const qrCodeText = ''; // Reemplaza con tu URL
 const logoPath = './logo.png'; // Ruta a tu logo
 
 const generateQRWithLogo = async () => {
